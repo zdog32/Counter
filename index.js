@@ -14,5 +14,9 @@ function reset(){
     number = 0;
     displayNumber.innerText = number;
 }
+function half(){
+    number = number / 2;
+    displayNumber.innerText = number;
+}
 var displayNumber = document.querySelector("#displayNumber");
 var number = 0;

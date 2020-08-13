@@ -1,6 +1,9 @@
 .red {
     background-color: crimson;
 }
+.blue {
+    background-color: darkblue;
+}
 button {
     font-family: monospace;
 }

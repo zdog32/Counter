@@ -18,9 +18,15 @@ function half(){
     number = number / 2;
     updateNumber();
 }
+function omegadoom(){
+  console.log("boom boom big die")
+}
 function updateNumber(){
     code.innerHTML = number;
     document.cookie = "number="+number;
+}
+if(number != number){
+  console.log("the code borken")
 }
 function getCookie(cname) {
     var name = cname + "=";
